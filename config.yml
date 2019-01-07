@@ -1,0 +1,7 @@
+url:
+    urlTest: "http://www.thewinestore.mu/product-category/wine/page/1/"
+    productClass: 'content-product'
+    prodNameClass: 'product-title'
+    prodPriceClass: 'woocommerce-Price-amount amount'
+    urlList: ["http://www.thewinestore.mu/product-category/wine/page/1/",
+              "http://www.thewinestore.mu/product-category/wine/page/2/"]

@@ -8,8 +8,10 @@ The objectives:
 
 3- Write into a csv file for database integration
 
-There are three scripts to achieve these objectives. The user can first test whether the website allows scraping via the testUrl with the file 'testScraper.py'. On this script, the product information class on the html source is used for testing. The output is the number of products on the webpage.
+The first step is to add the necessary variables into the config file.
 
-The main Scraper is 'scraper.py'. This script reads the necessary html classes from the config file creates the 'rows' for csv output.
+There are three scripts to achieve these objectives. The user can first test whether the website allows scraping via the testUrl with the file [testScraper.py](https://github.com/buketkonuk/webScrape_to_csv/blob/master/testScraper.py). On this script, the product information class on the html source is used for testing. The output is the number of products on the webpage.
 
-Finally the 'out-tocsv.py' reads the rows, grabs the soup as text for html output and writes it all out with the datetime of today as filename.
+The main Scraper is [scraper.py](https://github.com/buketkonuk/webScrape_to_csv/blob/master/scraper.py). This script reads the necessary html classes from the config file creates the 'rows' for csv output.
+
+Finally the [out-tocsv.py](https://github.com/buketkonuk/webScrape_to_csv/blob/master/out_tocsv.py) reads the rows, grabs the soup as text for html output and writes it all out with the datetime of today as filename.

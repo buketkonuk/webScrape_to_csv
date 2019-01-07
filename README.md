@@ -6,9 +6,9 @@ The objectives:
 
 2- Clean the data in the format we want
 
-3- Write into a csv file for data base integration
+3- Write into a csv file for database integration
 
-There are three scripts to achieve these objectives. The user can first test whether the website allows scraping via the testUrl with the file 'tesScraper.py'(../testScraper.py). On this script, the product information class on the html source is used for testing. The output is the number of products on the webpage.
+There are three scripts to achieve these objectives. The user can first test whether the website allows scraping via the testUrl with the file 'testScraper.py'. On this script, the product information class on the html source is used for testing. The output is the number of products on the webpage.
 
 The main Scraper is 'scraper.py'. This script reads the necessary html classes from the config file creates the 'rows' for csv output.
 
